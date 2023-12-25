@@ -1,0 +1,32 @@
+/* .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+} */
+
+.userName {
+  font-size: 12px;
+  /* font-weight: 400;
+  max-width: 200px; */
+}
+
+.userButton {
+  display: inline-block;
+  width: 60px;
+  padding: 4px;
+  text-align: center;
+  font-size: 9px;
+  font-style: italic;
+  border: 1px solid #78c7af;
+  background-color: #a4f0d9;
+  padding: 6px 4px;
+  border-radius: 4px;
+  transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.userButton:hover,
+.userButton:focus {
+  background-color: rgb(171, 128, 211);
+  color: rgb(234, 240, 240);
+}

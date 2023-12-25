@@ -1,0 +1,56 @@
+.contactsFormWrapper{
+ display: flex;
+}
+.formContainer {
+ padding: 10px;
+  border: 1px solid #78c7af;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  
+}
+
+.submitButton {
+  display: inline-block;
+  width: 60px;
+  padding: 4px;
+  text-align: center;
+  font-size: 9px;
+  font-style: italic;
+  border: 1px solid rgb(87, 228, 105);
+  background-color: #e71818;
+  padding: 6px 4px;
+  border-radius: 2px;
+  transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.submitButton:hover,
+.submitButton:focus {
+  background-color: rgb(87, 228, 105);
+  color: rgb(234, 240, 240);
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.inputContacts{
+  min-width: 300px;
+  height: 24px;
+  width:100%;
+}
+
+
+input {
+  border: 1px solid rgb(87, 228, 105);
+  border-radius: 2px;
+  
+}
+
+input:hover,
+input:focus {
+  outline: none;
+  border-color: rgb(87, 228, 105);
+}

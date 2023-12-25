@@ -1,0 +1,18 @@
+.headerLink {
+  text-decoration: none;
+  color: rgb(255, 230, 6);
+  font-size: 15px;
+  padding: 15px;
+  margin-right: 20px;
+  display: inline-flex;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.active {
+  color: #46f800;
+
+  -webkit-box-shadow: inset 3px 3px 41px -15px rgb(87, 228, 105);
+-moz-box-shadow: inset 3px 3px 41px -15px rgb(87, 228, 105);
+box-shadow: inset 3px 3px 41px -15px rgb(87, 228, 105);
+}
+
